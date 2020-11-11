@@ -17,7 +17,8 @@ int score = 0;
 String name = JOptionPane.showInputDialog("Is a chicken a bird say |Yes| or |No|");
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
 if(name.equalsIgnoreCase("Yes")) {
-	
+	JOptionPane.showMessageDialog(null, "You are correct!!");
+}else if(name.equalsIgnoreCase("No")
 }
 		// 5. Otherwise, say "wrong" and tell them the answer
 
